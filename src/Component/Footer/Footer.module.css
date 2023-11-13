@@ -1,0 +1,111 @@
+.container{
+    background-color: #173d6c;
+    width: 100%;
+    height: 19rem;
+    margin: auto;
+    position: fixed;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-bottom: 1px solid white;
+
+    /* background-color: red; */
+}
+.logoImage img{
+    width: 18rem;
+    height: 5rem;
+    padding: 2rem;
+}
+ul{
+    list-style: none;
+}
+
+.footerCol ul li h2{
+    color: #ffff;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.footerCol ul li a{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    line-height: 2rem;
+}
+.footerCol ul li p{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footerChildTwo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+.footerChildTwo p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+@media  only screen and (max-width: 162px) and (min-width:319px){
+    .container{
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .row{
+        display: block;
+        /* width: 50%; */
+    }
+}
+@media  only screen and (max-width: 425px) and (min-width:320px){
+    .container{
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .row{
+        display: block;
+        /* width: 50%; */
+    }
+}
+@media only screen and (max-width: 600px) and (min-width: 426px){
+    .container{
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .row{
+        display: block;
+        /* width: 50%; */
+    }
+}
+@media only screen and (max-width: 1200px) and (min-width: 601px){
+    .container{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+    .footerCol{
+
+        width: 50%;
+    }
+} 
